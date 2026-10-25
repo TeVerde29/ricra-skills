@@ -1,22 +1,21 @@
-# kit-habilidades-opencode
+# ricra-skills
 
 Colección personal de **skills** para agentes de código + configuración de **MCP** para [OpenCode](https://opencode.ai).
 
 ## Contenido
 
 ```
-kit-habilidades-opencode/
-  skills/          # 27 skills (cada una con su SKILL.md)
+ricra-skills/
+  skills/          # 26 skills (cada una con su SKILL.md)
   opencode.json    # configuración MCP (5 servidores, sin secretos)
   README.md
   .gitignore
 ```
 
-## Skills (27)
+## Skills (26)
 
 | Skill | Qué hace |
 |---|---|
-| `analisis-repo-y-plan` | Intake Rigor: mapa rápido del repo y plan mínimo de reproducción (inference/eval/train) |
 | `auditoria-codigo` | Auditoría de código solo lectura: espagueti, estructura, seguridad e informe con archivo:línea |
 | `auditoria-sitio-web` | Audita un sitio con `squirrelscan` (SEO, performance, seguridad, a11y, 260+ reglas) y corrige en bucle |
 | `buenas-practicas-playwright` | Playwright E2E/componentes/API/visual/a11y: POM, flaky tests, auth, CI/CD, mocks |
@@ -60,7 +59,7 @@ kit-habilidades-opencode/
 
 ```bash
 # 1. Clonar
-git clone https://github.com/TeVerde29/kit-habilidades-opencode.git
+git clone https://github.com/TeVerde29/ricra-skills.git
 
 # 2a. OpenCode: copiar opencode.json a tu config
 cp opencode.json ~/.config/opencode/opencode.json
