@@ -8,9 +8,8 @@ Colección modular de **skills en español** para agentes de código e inteligen
 
 - [Resumen del Proyecto](#resumen-del-proyecto)
 - [Compatibilidad con Agentes](#compatibilidad-con-agentes)
-- [Catálogo de Skills (26)](#catálogo-de-skills-26)
+- [Catálogo de Skills (22)](#catálogo-de-skills-22)
   - [Diseño Visual, UI/UX y Frontend](#diseño-visual-uiux-y-frontend)
-  - [Backend y Bases de Datos](#backend-y-bases-de-datos)
   - [Testing, QA y Calidad](#testing-qa-y-calidad)
   - [Seguridad y Flujo Git](#seguridad-y-flujo-git)
   - [Auditoría y Arquitectura](#auditoría-y-arquitectura)
@@ -53,7 +52,7 @@ Las skills de este repositorio son compatibles con cualquier entorno o agente qu
 
 ---
 
-## Catálogo de Skills (26)
+## Catálogo de Skills (22)
 
 ### Diseño Visual, UI/UX y Frontend
 
@@ -66,21 +65,12 @@ Las skills de este repositorio son compatibles con cualquier entorno o agente qu
 | [`mejorar-diseno-existente`](skills/mejorar-diseno-existente/SKILL.md) | Diagnóstico visual y elevación estética de sitios y aplicaciones en producción sin romper funcionalidad. |
 | [`desarrollador-angular`](skills/desarrollador-angular/SKILL.md) | Arquitectura y desarrollo moderno en Angular: Signals, componentes Standalone, formularios reactivos, SSR, accesibilidad ARIA y testing. |
 
-### Backend y Bases de Datos
-
-| Skill | Descripción y Casos de Uso |
-|---|---|
-| [`patrones-backend-nodejs`](skills/patrones-backend-nodejs/SKILL.md) | Servicios de producción en Node.js con Express/Fastify: middlewares, manejo tipado de errores, autenticación y diseño de APIs REST/GraphQL. |
-| [`java-springboot`](skills/java-springboot/SKILL.md) | Buenas prácticas, estructura por capas y arquitectura por dominio para proyectos con Spring Boot. |
-| [`optimizacion-sql`](skills/optimizacion-sql/SKILL.md) | Optimización universal de consultas SQL (PostgreSQL, MySQL, SQL Server, Oracle): planes de ejecución `EXPLAIN`, indexación, particionado y paginación eficiente. |
-
 ### Testing, QA y Calidad
 
 | Skill | Descripción y Casos de Uso |
 |---|---|
 | [`tdd`](skills/tdd/SKILL.md) | Desarrollo guiado por pruebas (ciclo Red-Green-Refactor) orientado a pruebas de comportamiento por interfaces públicas. |
 | [`pruebas-jest`](skills/pruebas-jest/SKILL.md) | Patrones, estructuras y estrategias de mocks para pruebas unitarias e integración en TypeScript/JavaScript con Jest. |
-| [`pruebas-springboot`](skills/pruebas-springboot/SKILL.md) | Especialista en testing para Spring Boot 4: JUnit 6, AssertJ, Instancio, `@WebMvcTest` y Testcontainers. |
 | [`buenas-practicas-playwright`](skills/buenas-practicas-playwright/SKILL.md) | Pruebas E2E, componentes, accesibilidad y API con Playwright: Page Object Model (POM), manejo de tests inestables (*flaky*), autenticación y CI/CD. |
 | [`plan-pruebas-pymes`](skills/plan-pruebas-pymes/SKILL.md) | Elaboración pragmática de planes de pruebas para proyectos y pequeñas empresas: casos concretos respaldados por evidencias. |
 | [`verificacion-final`](skills/verificacion-final/SKILL.md) | Verificación obligatoria con ejecución de comandos y confirmación de evidencias antes de marcar tareas como completadas. |
@@ -140,7 +130,7 @@ ricra-skills/
 ├── .gitignore                     # Filtros para cachés, dependencias y credenciales locales
 ├── README.md                      # Documentación central del proyecto
 ├── opencode.json                  # Manifiesto de 5 servidores MCP para agentes
-└── skills/                        # 26 skills modulares
+└── skills/                        # 22 skills modulares
     ├── auditoria-codigo/          # Auditoría estática y detección de malas prácticas
     ├── auditoria-sitio-web/       # Auditoría integral web (assets, referencias y SKILL.md)
     ├── buenas-practicas-playwright/ # Playwright (arquitectura, POM, auth, CI/CD)
@@ -156,13 +146,9 @@ ricra-skills/
     ├── diseno-modulos/            # Principios de diseño de módulos profundos
     ├── generador-arquitectura/    # Generación de planos C4 y arquitectura
     ├── generador-readme/          # Generador fáctico de documentación README
-    ├── java-springboot/           # Guías de desarrollo en Spring Boot
     ├── mejorar-diseno-existente/  # Técnicas de rediseño sin roturas
-    ├── optimizacion-sql/          # Análisis y optimización SQL multibase
-    ├── patrones-backend-nodejs/   # Arquitectura backend robusta en Node.js
     ├── plan-pruebas-pymes/        # Planes de prueba prácticos
     ├── pruebas-jest/              # Testing con Jest y mocks limpios
-    ├── pruebas-springboot/        # Testing exhaustivo Spring Boot 4
     ├── seguridad-y-blindaje/      # Hardening contra OWASP Top 10
     ├── tdd/                       # Metodología Red-Green-Refactor
     ├── ui-ux-pro-max/             # Base de datos y scripts de inteligencia UI/UX
