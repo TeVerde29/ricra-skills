@@ -8,11 +8,12 @@ Colección modular de **skills en español** para agentes de código e inteligen
 
 - [Resumen del Proyecto](#resumen-del-proyecto)
 - [Compatibilidad con Agentes](#compatibilidad-con-agentes)
-- [Catálogo de Skills (22)](#catálogo-de-skills-22)
+- [Catálogo de Skills (25)](#catálogo-de-skills-25)
   - [Diseño Visual, UI/UX y Frontend](#diseño-visual-uiux-y-frontend)
   - [Testing, QA y Calidad](#testing-qa-y-calidad)
   - [Seguridad y Flujo Git](#seguridad-y-flujo-git)
   - [Auditoría y Arquitectura](#auditoría-y-arquitectura)
+  - [Gestión del Conocimiento y Obsidian ATLAS](#gestión-del-conocimiento-y-obsidian-atlas)
   - [Herramientas de Ecosistema y Productividad](#herramientas-de-ecosistema-y-productividad)
 - [Arquitectura y Funcionamiento](#arquitectura-y-funcionamiento)
 - [Estructura del Repositorio](#estructura-del-repositorio)
@@ -52,7 +53,7 @@ Las skills de este repositorio son compatibles con cualquier entorno o agente qu
 
 ---
 
-## Catálogo de Skills (22)
+## Catálogo de Skills (25)
 
 ### Diseño Visual, UI/UX y Frontend
 
@@ -94,6 +95,14 @@ Las skills de este repositorio son compatibles con cualquier entorno o agente qu
 | [`generador-arquitectura`](skills/generador-arquitectura/SKILL.md) | Análisis del código fuente para generar documentación técnica, diagramas C4/UML y registros de decisiones arquitectónicas (ADRs). |
 | [`generador-readme`](skills/generador-readme/SKILL.md) | Generador completo y fáctico de archivos `README.md` basado en la inspección real del repositorio. |
 
+### Gestión del Conocimiento y Obsidian ATLAS
+
+| Skill | Descripción y Casos de Uso |
+|---|---|
+| [`atlas-proyecto`](skills/atlas-proyecto/SKILL.md) | Análisis y generación de arquitectura de proyectos en Obsidian según el sistema ATLAS (dimensionamiento, carpetas núcleo, módulos, propiedades específicas por disciplina y plan de arranque). |
+| [`atlas-plantillas`](skills/atlas-plantillas/SKILL.md) | Catálogo de piezas listas para copiar en Obsidian: plantillas de notas, bloques YAML, bases de datos (.base) y dashboards de proyecto. |
+| [`atlas-mantenimiento`](skills/atlas-mantenimiento/SKILL.md) | Mantenimiento operativo de vaults ATLAS: revisiones periódicas (diaria, semanal, mensual), procesamiento ordenado del Inbox, control de tareas/bloqueos y protocolos de cierre/auditoría. |
+
 ### Herramientas de Ecosistema y Productividad
 
 | Skill | Descripción y Casos de Uso |
@@ -130,7 +139,10 @@ ricra-skills/
 ├── .gitignore                     # Filtros para cachés, dependencias y credenciales locales
 ├── README.md                      # Documentación central del proyecto
 ├── opencode.json                  # Manifiesto de 5 servidores MCP para agentes
-└── skills/                        # 22 skills modulares
+└── skills/                        # 25 skills modulares
+    ├── atlas-mantenimiento/       # Mantenimiento, revisiones y auditorías de vault Obsidian
+    ├── atlas-plantillas/          # Plantillas, propiedades YAML y Bases para Obsidian ATLAS
+    ├── atlas-proyecto/            # Arquitectura y diseño de proyectos ATLAS en Obsidian
     ├── auditoria-codigo/          # Auditoría estática y detección de malas prácticas
     ├── auditoria-sitio-web/       # Auditoría integral web (assets, referencias y SKILL.md)
     ├── buenas-practicas-playwright/ # Playwright (arquitectura, POM, auth, CI/CD)
